@@ -13,7 +13,7 @@ fping -g 192.168.0.100/24 2>/dev/null | grep "is alive"
 puxando do 192.168.0.1 ao 192.168.0.254 e os que estiverem ativos ele exibirar uma mensagem "is alive" (está vivo)
 
 -nmap -sV -p 21,22,23,80,139,445, 192.168.0.1 
-# Esse comando indetifica qual é o fabricante do dispositivo e quais portas estão abertas e seus respectivos serviços 
+ Esse comando indetifica qual é o fabricante do dispositivo e quais portas estão abertas e seus respectivos serviços 
 
 nmap -Pn 192.168.0.1 -top-ports=100
 #Esse comando ira identifcar quais são as principais portas baseada nas 100 mais utilizadas e irá retornar se estão abertas ou fechadas 
