@@ -6,8 +6,7 @@ Após "varrer" a infraestrutura do defensor é necessário organizar quais serã
 
 
 
-Se você conhece o inimigo e conhece a si mesmo, não precisa temer o resultado de cem batalhas. -Sun Tzu 
-
+**Se você conhece o inimigo e conhece a si mesmo, não precisa temer o resultado de cem batalhas. -Sun Tzu **
 fping -g 192.168.0.100/24 2>/dev/null | grep "is alive" 
 #Esse comando ira realizar uma verificação de quais hosts estão ativos na rede 
 puxando do 192.168.0.1 ao 192.168.0.254 e os que estiverem ativos ele exibirar uma mensagem "is alive" (está vivo)
